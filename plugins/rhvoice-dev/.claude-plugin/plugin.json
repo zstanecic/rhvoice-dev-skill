@@ -1,0 +1,12 @@
+{
+  "name": "rhvoice-dev",
+  "description": "Field-tested know-how for developing RHVoice languages and voices",
+  "version": "1.0.0",
+  "author": {
+    "name": "zstanecic"
+  },
+  "homepage": "https://github.com/zstanecic/rhvoice-dev-skill",
+  "repository": "https://github.com/zstanecic/rhvoice-dev-skill",
+  "license": "MIT",
+  "keywords": ["rhvoice", "tts", "foma", "htk", "hts", "espeak-ng", "speech-synthesis"]
+}

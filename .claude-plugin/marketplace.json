@@ -1,0 +1,16 @@
+{
+  "name": "rhvoice-dev-skill",
+  "description": "Claude Code skill with field-tested know-how for developing RHVoice languages and voices",
+  "owner": {
+    "name": "zstanecic"
+  },
+  "plugins": [
+    {
+      "name": "rhvoice-dev",
+      "description": "RHVoice language and voice development: foma grammars and FST size, front-end testing, SSML phoneme overrides, HTS/HTK voice training, toolchain builds, eSpeak NG rule import, package testing",
+      "source": "./plugins/rhvoice-dev",
+      "category": "development",
+      "homepage": "https://github.com/zstanecic/rhvoice-dev-skill"
+    }
+  ]
+}
