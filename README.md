@@ -16,17 +16,27 @@ needs.
 
 ## What is inside
 
-| Topic | File |
-| --- | --- |
-| Overview, working principles, quick checks, `<phoneme>` summary | [SKILL.md](plugins/rhvoice-dev/skills/rhvoice-dev/SKILL.md) |
-| foma traps, "G2p failed", totality/equivalence proofs, FST size control | [foma.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/foma.md) |
-| Testing front-end changes: old-vs-new sweeps, inflection matrices, dropped tokens, A/B synthesis | [front-end-testing.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/front-end-testing.md) |
-| SSML `<phoneme ph="…">` in any language: notation, stress and tone, pitfalls | [ssml-phoneme.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/ssml-phoneme.md) |
-| Voice training with vbu / voice-building-utils: corpus checks, large corpora, f0 and vocal fry, VAD, multicore, Praat 7 | [voice-training.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/voice-training.md) |
-| What did the speaker really say? Diagnosing `problematic_files` with the voice's own HMMs | [htk-alignment-diagnosis.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/htk-alignment-diagnosis.md) |
-| Building HTK, HTS, SPTK, speech_tools/festival with GCC 15–16 on Fedora 44–45 | [toolchain.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/toolchain.md) |
-| Importing eSpeak NG rules into a foma g2p | [espeak-import.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/espeak-import.md) |
-| Testing DEB/RPM packages and the Speech Dispatcher module in rootless rootfs | [package-testing.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/package-testing.md) |
+- [SKILL.md](plugins/rhvoice-dev/skills/rhvoice-dev/SKILL.md): overview, working principles, quick checks, and a
+  summary of `<phoneme>`.
+- [foma.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/foma.md): foma traps, "G2p failed",
+  totality and equivalence proofs, FST size control.
+- [front-end-testing.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/front-end-testing.md):
+  testing language module changes. Old-vs-new sweeps, inflection matrices,
+  dropped tokens, A/B synthesis.
+- [ssml-phoneme.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/ssml-phoneme.md):
+  SSML `<phoneme ph="…">` in any language. Notation, stress, tone, pitfalls.
+- [voice-training.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/voice-training.md):
+  voice training with vbu / voice-building-utils. Corpus checks, large corpora,
+  f0 and vocal fry, VAD, multicore, Praat 7.
+- [htk-alignment-diagnosis.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/htk-alignment-diagnosis.md):
+  what did the speaker really say? Diagnosing `problematic_files` with the
+  voice's own HMMs.
+- [toolchain.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/toolchain.md):
+  building HTK, HTS, SPTK, speech_tools/festival with GCC 15–16 on Fedora 44–45.
+- [espeak-import.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/espeak-import.md):
+  importing eSpeak NG rules into a foma g2p.
+- [package-testing.md](plugins/rhvoice-dev/skills/rhvoice-dev/references/package-testing.md):
+  testing DEB/RPM packages and the Speech Dispatcher module in rootless rootfs.
 
 The reference files are plain Markdown, so people can read them too.
 
