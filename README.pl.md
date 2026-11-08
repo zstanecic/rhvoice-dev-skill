@@ -97,14 +97,23 @@ W Claude Code można go też wywołać bezpośrednio: `/rhvoice-dev`.
 
 ## Współpraca
 
-Zgłoszenia i pull requesty są mile widziane. Zasady:
+Zgłoszenia i pull requesty są mile widziane. Nowe odkrycie najprościej zgłosić
+przez [formularz](https://github.com/zstanecic/rhvoice-dev-skill/issues/new?template=finding.yml).
+Jeśli używasz skilla w Claude, Claude może sam zaproponować wypełnienie
+formularza, gdy trafi na coś nowego i ogólnego. Nigdy niczego nie wysyła sam:
+przeglądasz tekst i wysyłasz go Ty, a opiekun repozytorium sprawdza go przed
+scaleniem.
+
+Zasady:
 
 - tylko rzeczy sprawdzone w praktyce, z wersją i sposobem sprawdzenia;
 - powód i pomiar, nie sama reguła;
 - ogólne sformułowania: przykład może dotyczyć jednego języka, ale rada ma
   pasować do innych;
 - `SKILL.md` ma zostać krótki, a szczegóły idą do odpowiedniego pliku w
-  `references/`.
+  `references/`;
+- żadnych danych prywatnych: ścieżek, nazw serwerów, haseł, nazwisk, nazw
+  korpusów i lektorów, niewydanej pracy.
 
 ## Licencja
 

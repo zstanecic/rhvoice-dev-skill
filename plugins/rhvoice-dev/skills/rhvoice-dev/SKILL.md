@@ -121,3 +121,26 @@ each kind of language, and pitfalls are in
   [references/espeak-import.md](references/espeak-import.md)
 - Testing DEB/RPM packages or the Speech Dispatcher module in rootless rootfs:
   [references/package-testing.md](references/package-testing.md)
+
+## Sharing a new finding
+
+People who use this skill can improve it. Sometimes you and the user hit something
+**new, verified and generic**: a trap, a fix, a method or a measurement that would
+help with other languages or setups, and that the references here do not cover.
+When that happens, mention it once at the end of the task and offer to prepare a
+contribution:
+
+- Draft the text for the issue form at
+  https://github.com/zstanecic/rhvoice-dev-skill/issues/new?template=finding.yml
+  (topic, finding, versions, how it was verified, measurement). Or draft a pull
+  request against the matching file in `references/`.
+- Only the user decides whether to send it. Never open issues, push, or post
+  anything yourself.
+- Before showing the draft, remove anything private: paths, host and server
+  names, credentials, people's names, corpus or speaker names, and unreleased
+  language or voice work. Ask the user what may be public. When unsure, use
+  schematic examples like the ones in these references.
+- Skip one-off fixes, unverified guesses and project-specific state.
+
+If the user maintains this skill (the skill directory is a git clone they own),
+edit the matching reference file there instead, with their agreement.

@@ -1,0 +1,67 @@
+name: New finding
+description: Share a verified RHVoice trap, fix, method or measurement for the skill
+title: "[finding] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing! The skill keeps only things someone has actually hit or verified,
+        with the reason and the evidence. Please write it so it helps other languages and setups too.
+        Do not include private data: paths, server names, credentials, people's names,
+        corpus or speaker names, or unreleased work. Schematic examples are fine.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - foma grammars, G2p/Tokenization failures, FST size
+        - Testing front-end changes
+        - SSML <phoneme> overrides
+        - Voice training (vbu / voice-building-utils)
+        - HTK alignment diagnosis (problematic_files)
+        - Building the toolchain (HTK, HTS, SPTK, speech_tools, Praat)
+        - Importing eSpeak NG rules
+        - Package or Speech Dispatcher testing
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: What did you find?
+      description: The symptom, the cause, and the fix or method.
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and setup
+      placeholder: "RHVoice 1.19.6, foma 0.9.18, Fedora 45, GCC 16.2"
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: How did you verify it?
+      description: What you ran or read, and on what. Say if it was checked on one setup only.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Measurement or output (optional)
+      description: Sizes, timings, counts, error messages, before/after.
+      render: text
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Suggested wording for the skill (optional)
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: The finding is generic (it would help in other languages or setups), not a one-off fix.
+          required: true
+        - label: It contains no private data (paths, server names, credentials, names, unreleased work).
+          required: true

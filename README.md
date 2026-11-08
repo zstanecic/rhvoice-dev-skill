@@ -90,15 +90,22 @@ In Claude Code you can also call it directly with `/rhvoice-dev`.
 
 ## Contributing
 
-Issues and pull requests are welcome. Please keep the bar the notes were written
-to:
+Issues and pull requests are welcome. To share a new finding, use the
+[finding form](https://github.com/zstanecic/rhvoice-dev-skill/issues/new?template=finding.yml).
+If you use the skill in Claude, Claude may offer to draft the form for you when
+it hits something new and generic. It never sends anything itself: you review
+the text and submit it, and the maintainer reviews it before merging.
+
+Please keep the bar the notes were written to:
 
 - only things you have hit or verified, with the version and how you checked;
 - the reason and the measurement, not just the rule;
 - generic wording: examples may name a language, but the advice should hold for
   others;
 - `SKILL.md` stays short, and details go into the matching file under
-  `references/`.
+  `references/`;
+- no private data: paths, server names, credentials, people's names, corpus or
+  speaker names, unreleased work.
 
 ## License
 
